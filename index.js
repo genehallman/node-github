@@ -364,7 +364,7 @@ var Client = module.exports = function(config) {
     /**
      *  Client#authenticate(options) -> null
      *      - options (Object): Object containing the authentication type and credentials
-     *          - type (String): One of the following: `basic` or `oauth`
+     *          - type (String): One of the following: `basic` or `oauth` or `client`
      *          - username (String): Github username
      *          - password (String): Password to your account
      *          - token (String): OAuth2 token
